@@ -21,6 +21,9 @@
 - Run `npm install`
 - Visit [http://theme.dev/](http://theme.dev/) in your browser
 
+### Creating a New Theme
+- Take a look at the Compass readme to learn more about creating a new theme: [https://github.com/FlagshipWP/Compass#create-a-new-theme](https://github.com/FlagshipWP/Compass#create-a-new-theme)
+
 ## Everyday Usage
 - Running a virtual machine does utilize resources on the host machine, which means you will want to 'turn off' the virtual machine when not in use.  You can use the `vagrant suspend` or `vagrant halt` commands for this purpose.
 - Turning the virtual machine back on can be done using the same `vagrant up` command you used to create the virtual machine initially. Since the machine already exists in this case, the provisioning step will be skipped.
