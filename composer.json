@@ -26,6 +26,9 @@
 		"johnpbloch/wordpress": "4.0.*",
 		"flagshipwp/compass": "*"
 	},
+	"require-dev": {
+		"wpackagist-plugin/vip-scanner": "*"
+	},
 	"minimum-stability": "dev",
 	"extra": {
 		"wordpress-install-dir": "www/cms",
