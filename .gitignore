@@ -1,0 +1,23 @@
+.DS_Store
+
+# Composer
+vendor/
+
+# WordPress
+/www/cms/
+
+# WordPress: Themes
+/www/content/themes/*
+!/www/content/themes/index.php
+
+# WordPress: Plugins
+/www/content/plugins/*
+!/www/content/plugins/index.php
+
+# WordPress: Must-use Plugins
+/www/content/mu-plugins/*
+!/www/content/mu-plugins/index.php
+!/www/content/mu-plugins/register-theme-directory.php
+
+# WordPress: Uploads
+#/www/content/uploads

@@ -1,0 +1,38 @@
+{
+	"name": "wpscholar/flagship-compass-theme-dev",
+	"description": "Get a jump on developing your own theme built using the Compass starter theme from Flagship",
+	"license": "GPL-3.0+",
+	"type": "project",
+	"authors": [
+		{
+			"name": "Micah Wood",
+			"email": "micah@wpscholar.com",
+			"homepage": "http://wpscholar.com",
+			"role": "Developer"
+		}
+	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "http://wpackagist.org"
+		},
+		{
+			"type": "git",
+			"url": "https://github.com/FlagshipWP/Compass.git"
+		}
+	],
+	"require": {
+		"composer/installers": "*",
+		"johnpbloch/wordpress": "4.0.*",
+		"flagshipwp/compass": "*"
+	},
+	"minimum-stability": "dev",
+	"extra": {
+		"wordpress-install-dir": "www/cms",
+		"installer-paths": {
+			"www/content/plugins/{$name}": ["type:wordpress-plugin"],
+			"www/content/themes/{$name}": ["type:wordpress-theme"],
+			"www/content/mu-plugins/{$name}": ["type:wordpress-muplugin"]
+		}
+	}
+}
